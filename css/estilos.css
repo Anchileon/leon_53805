@@ -1,0 +1,169 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.headernav {
+    background-color: #72151D;
+}
+
+.logo{
+    width: 100px;
+}
+
+.solicitar-presupuesto {
+    background-color: #333; 
+    padding: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.solicipres{
+    color: #fff;
+    font-size: 1rem;
+}
+.buttonpres {
+    background-color: #ffffff;
+    color: #72151D;
+    border: 2px solid #72151D;
+    height: auto;
+    font-size: 1rem;
+    font-weight: 700;
+    
+}
+.buttonpres:hover {
+    background-color: #b30000;
+    color: #ffffff;
+}
+
+.contenido-imagen {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.quienestext {
+    text-align: justify;
+}
+
+.carousel-inner img {
+    height: 200px; /* Puedes ajustar este valor según sea necesario */
+}
+
+.imgaside {
+    height: 50vh;
+}
+
+.tituloclientes {
+    margin-left: 25px;
+}
+
+.datafooter {
+    background-color: #333;
+    font-size: x-small;
+    color: #fff;
+    border: none;
+    height: auto;
+}
+
+.datafooter li {
+    list-style: none;
+    background-color: #333;
+    text-align: start;
+}
+
+.tituloestamos, .tituloredes {
+    color: #fff;
+}
+
+.footer__sectionredes ul li img {
+    transition: filter 0.5s;
+    filter: grayscale(100%);
+}
+
+.footer__sectionredes ul li img:hover {
+    filter: grayscale(0);
+}
+
+.tituloredes {
+    margin-bottom: 35px;
+}
+.liredes {
+    list-style: none;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section li {
+    color: #fff;
+    list-style: none;
+}
+
+
+footer {
+    background-color: #333;
+    border-top: #72151D solid 15px;
+    height: auto;
+}
+
+/* Ajuste para dispositivos móviles */
+@media (max-width: 992px) {
+    .row > div[class^="col-"] {
+        max-width: 100%;
+    }
+}
+
+h3 {
+    font: 0.5rem;
+}
+
+.send {
+    background-color: #fff;
+    color: #72151D;
+    border: #72151D solid 2px;
+}
+
+.send:hover  {
+    background-color: #b30000;
+    color: #ffffff;
+    border: #72151D solid 2px;
+}
+
+.clear {
+    background-color: #333;
+    color: #fff;
+    border: #72151D solid 2px;
+}
+
+.clear:hover{
+    background-color: #b30000;
+    color: #ffffff;
+    border: #72151D solid 2px;
+}
+
+.formcontacto {
+    border: #72151D solid 2px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    height: auto;
+}
+
+.casamatriz {
+    border: #72151D solid 2px;
+    height: auto;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    margin-left: 20px;
+}

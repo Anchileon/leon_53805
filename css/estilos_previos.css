@@ -1,0 +1,180 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #621313;
+    padding: 20px;
+    overflow: auto;
+}
+
+.header-logo img {
+    max-width: 30vw;
+    height: auto;
+    margin-bottom: 0px;
+    float: left;
+}
+
+.titulonav, .subtitulonav {
+    margin: 40px;
+    color: #fff;
+}
+
+nav.pagesnav {
+    float: right;
+}
+
+nav.pagesnav ul {
+    list-style-type: none;
+    margin-top:100px;
+    padding: 0;
+}
+
+nav.pagesnav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav.pagesnav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+    clear: both;
+}
+
+.solicitar-presupuesto {
+    background-color: #333; 
+    padding: 10px;
+    width: 100%;
+    margin: 0 auto; 
+    box-sizing: border-box; 
+    overflow: auto; 
+}
+
+.solicipres {
+    margin: 0; 
+    color: #ffffff;
+    float: left;
+}
+
+.buttonpres {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #b30000;
+    text-decoration: none;
+    border: 2px solid #b30000;
+    border-radius: 5px; 
+    float: right;
+}
+.quienes-somos {
+    position: relative;
+  }
+  
+  .contenido-imagen {
+    position: relative; 
+    .contenido-imagen img {
+        float: right;
+        width: 200px;
+        height: 200px;
+      }
+  }
+  
+  .contenido-imagen img {
+    float: right;
+    margin-left: 20px;
+  }
+  
+  .parrafoquienes {
+    width: calc(100% - 170px); 
+  }
+  
+  .contenido-imagen h3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+  }
+.imagenesaside {
+    overflow: hidden;
+  }
+  
+  .imagenesaside a {
+    float: left;
+    width: calc(33.33% - 10px);
+    margin-right: 10px; 
+  }
+  
+  .imagenesaside img {
+    width: 100%; 
+    height: 60vh;
+    object-fit: cover; 
+  }
+  
+.opinions {
+    list-style: none;
+    padding: 0;
+}
+
+.opinions li {
+    display: inline-block;
+    width: calc(33.33% - 20px);
+    margin-right: 20px; 
+    vertical-align: top; 
+    box-sizing: border-box;
+}
+
+.opinions li:last-child {
+    margin-right: 0;
+}
+
+.opinions li img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    overflow: auto;
+}
+
+.footer-section {
+    width: 30%;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 10px;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.contactfooter {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #fff;
+}
