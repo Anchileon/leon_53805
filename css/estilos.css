@@ -59,8 +59,19 @@ div.navbar-collapse ul.navbar-nav li.nav-item a.nav-link:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-    height: 30vh;
+    height: 25vh;
     color: #fff;
+}
+
+.fo {
+    font-size: 14px;
+}
+
+/* Estilos para pantallas grandes (lg) */
+@media (min-width: 768px) {
+    .fo {
+        font-size: 20px;
+    }
 }
 
 .contenido-imagen {
