@@ -61,6 +61,7 @@ div.navbar-collapse ul.navbar-nav li.nav-item a.nav-link:hover {
     background-position:bottom;
     height: 25vh;
     color: #fff;
+    width: 100%;
 }
 
 .fo {
@@ -227,7 +228,7 @@ h3 {
   }
 
   .imagen-container:hover .card-overlay {
-    opacity: 1;
+    opacity: 0.8;
   }
   .card-overlay {
     position: absolute;
@@ -244,7 +245,11 @@ h3 {
 }
 
 .card-overlay p {
-    color: rgba(255, 255, 255, 0.295);
+    color: rgba(255, 255, 255, 0.522);
+}
+
+.cardretro {
+    background-color: #ffffff;
 }
 
 .gridservicios {
