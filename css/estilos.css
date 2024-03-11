@@ -55,10 +55,10 @@ div.navbar-collapse ul.navbar-nav li.nav-item a.nav-link:hover {
 }
 
 .subt {
-    background-image: url(../assets/img/movimientosuelocordobes.jpg);
+    background-image: url(../assets/img/maquinola\ \(1\).jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position:bottom;
     height: 25vh;
     color: #fff;
 }
@@ -99,6 +99,18 @@ div.navbar-collapse ul.navbar-nav li.nav-item a.nav-link:hover {
 .cardcli{
     border: #72151D solid 2px;
     background-color: #f3f3f3;
+}
+
+.premios {
+    background-color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    p {
+        font-size: small;
+    }
+    h3 {
+        font-size: large;
+    }
 }
 
 .datafooter {
@@ -203,19 +215,65 @@ h3 {
     margin-left: 20px;
 }
 
-.card-img-overlay {
-    display: none;
-    background: rgba(0, 0, 0, 0.7);
-}
+.imagen-container {
+    position: relative;
+    display: inline-block; /* Para que la tarjeta no ocupe todo el ancho */
+    overflow: hidden;
+  }
 
-.card:hover .card-img-overlay {
+  .imagen-container img {
+    display: block; /* Para evitar el espacio debajo de la imagen */
+    width: auto; /* Utiliza el tamaño original de la imagen */
+  }
+
+  .imagen-container:hover .card-overlay {
+    opacity: 1;
+  }
+  .card-overlay {
+    position: absolute;
+    top: 10%; /* Ajusta la posición verticalmente */
+    left: 10%; /* Ajusta la posición horizontalmente */
+    width: 80%; /* Ancho del 80% del contenedor principal */
+    height: 80%; /* Alto del 80% del contenedor principal */
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0;
+    transition: opacity 0.5s ease;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.card-img {
-    transition: .5s ease;
+.card-overlay p {
+    color: rgba(255, 255, 255, 0.295);
 }
 
-.card:hover .card-img {
-    opacity: 0.3;
+.gridservicios {
+    display: grid;
+    grid-template-columns: auto auto auto; /* Tres columnas iguales */
+    grid-template-rows: auto auto auto auto   ; /* Cuatro filas automáticas */
+    gap: 10px; /* Espacio de 10px entre las celdas */
+    grid-template-areas:
+        "gr1 gr1 gr2"
+        "gr3 gr3 gr2"
+        "gr4 gr5 gr5"
+        "gr4 gr6 gr6";
+}
+
+.gr1 {
+    grid-area: gr1;
+}
+.gr2 {
+    grid-area: gr2;
+}
+.gr3 {
+    grid-area: gr3;
+}
+.gr4 {
+    grid-area: gr4;
+}
+.gr5 {
+    grid-area: gr5;
+}
+.gr6 {
+    grid-area: gr6;
 }
