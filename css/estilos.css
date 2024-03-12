@@ -96,7 +96,7 @@ div.navbar-collapse ul.navbar-nav li.nav-item a.nav-link:hover {
 /*aside index*/
 
 .carousel-inner img {
-    height: 200px; /* Puedes ajustar este valor según sea necesario */
+    height: 200px;
 }
 
 .imgaside {
@@ -268,9 +268,9 @@ h3 {
 
 .gridservicios {
     display: grid;
-    grid-template-columns: auto auto auto; /* Tres columnas iguales */
-    grid-template-rows: auto auto auto auto   ; /* Cuatro filas automáticas */
-    gap: 10px; /* Espacio de 10px entre las celdas */
+    grid-template-columns: auto auto auto; 
+    grid-template-rows: auto auto auto auto   ;
+    gap: 10px;
     grid-template-areas:
         "gr1 gr1 gr2"
         "gr3 gr3 gr2"
