@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+/*body leon y manada*/
+
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #f0f0f0;
@@ -54,6 +56,8 @@ div.navbar-collapse ul.navbar-nav li.nav-item a.nav-link:hover {
     color: #ffffff;
 }
 
+/*subtitulos y divisores*/
+
 .subt {
     background-image: url(../assets/img/maquinola\ \(1\).jpeg);
     background-size: cover;
@@ -63,6 +67,8 @@ div.navbar-collapse ul.navbar-nav li.nav-item a.nav-link:hover {
     color: #fff;
     width: 100%;
 }
+
+
 
 .fo {
     font-size: 14px;
@@ -75,6 +81,8 @@ div.navbar-collapse ul.navbar-nav li.nav-item a.nav-link:hover {
     }
 }
 
+/*img y texto index*/
+
 .contenido-imagen {
     max-width: 100%;
     height: auto;
@@ -85,6 +93,8 @@ div.navbar-collapse ul.navbar-nav li.nav-item a.nav-link:hover {
     text-align: justify;
 }
 
+/*aside index*/
+
 .carousel-inner img {
     height: 200px; /* Puedes ajustar este valor según sea necesario */
 }
@@ -93,9 +103,7 @@ div.navbar-collapse ul.navbar-nav li.nav-item a.nav-link:hover {
     height: 50vh;
 }
 
-.tituloclientes {
-    margin-left: 25px;
-}
+/*cards clientes y distinciones*/
 
 .cardcli{
     border: #72151D solid 2px;
@@ -113,6 +121,8 @@ div.navbar-collapse ul.navbar-nav li.nav-item a.nav-link:hover {
         font-size: large;
     }
 }
+
+/*footer*/
 
 .datafooter {
     background-color: #333;
@@ -172,6 +182,8 @@ footer {
     }
 }
 
+/*contacto*/
+
 h3 {
     font: 0.5rem;
 }
@@ -216,15 +228,17 @@ h3 {
     margin-left: 20px;
 }
 
+/*maquinaria y servicios*/
+
 .imagen-container {
     position: relative;
-    display: inline-block; /* Para que la tarjeta no ocupe todo el ancho */
+    display: inline-block; 
     overflow: hidden;
   }
 
   .imagen-container img {
-    display: block; /* Para evitar el espacio debajo de la imagen */
-    width: auto; /* Utiliza el tamaño original de la imagen */
+    display: block;
+    width: auto; 
   }
 
   .imagen-container:hover .card-overlay {
@@ -232,10 +246,10 @@ h3 {
   }
   .card-overlay {
     position: absolute;
-    top: 10%; /* Ajusta la posición verticalmente */
-    left: 10%; /* Ajusta la posición horizontalmente */
-    width: 80%; /* Ancho del 80% del contenedor principal */
-    height: 80%; /* Alto del 80% del contenedor principal */
+    top: 10%; 
+    left: 10%; 
+    width: 80%; 
+    height: 80%;
     background-color: rgba(0, 0, 0, 0);
     opacity: 0;
     transition: opacity 0.5s ease;
