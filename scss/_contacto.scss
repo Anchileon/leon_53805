@@ -1,0 +1,44 @@
+// Estilos para el formulario de contacto
+h3 {
+    font: 0.5rem;
+}
+
+.send {
+    background-color: #fff;
+    color: $color-principal;
+    border: $color-principal solid 2px;
+
+    &:hover {
+        background-color: $color-secundario;
+        color: #ffffff;
+        border: $color-principal solid 2px;
+    }
+}
+
+.clear {
+    background-color: $gris;
+    color: #fff;
+    border: $color-principal solid 2px;
+
+    &:hover {
+        background-color: $color-secundario;
+        color: #ffffff;
+        border: $color-principal solid 2px;
+    }
+}
+
+.formcontacto {
+    border: $color-principal solid 2px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    height: auto;
+}
+
+.casamatriz {
+    border: $color-principal solid 2px;
+    height: auto;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    margin-left: 20px;
+}

@@ -1,0 +1,24 @@
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f0f0;
+    color: $gris;
+    margin: 0;
+    padding: 0;
+
+    .headernav {
+        background-color: $color-principal;
+
+        div.navbar-collapse ul.navbar-nav li.nav-item a.nav-link {
+            color: #f0f0f0;
+            &:hover {
+                color: #636363;
+            }
+        }
+    }
+}
+
+.logo {
+    width: 100px;
+}

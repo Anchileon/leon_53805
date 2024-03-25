@@ -1,0 +1,63 @@
+/*footer*/
+
+footer {
+    background-color: $gris;
+    border-top: $color-principal solid 15px;
+    height: auto;
+}
+
+.datafooter {
+    background-color: $gris;
+    font-size: small;
+    color: #fff;
+    border: none;
+    height: auto;
+
+    li {
+    list-style: none;
+    background-color: $gris;
+    text-align: start;
+    }
+}
+
+
+.tituloestamos, .tituloredes {
+    color: #fff;
+}
+
+.footer__sectionredes ul li img {
+    transition: filter 0.5s;
+    filter: grayscale(100%);
+    
+    &:hover {
+        filter: grayscale(0);
+    }
+    
+
+}
+
+
+.tituloredes {
+    margin-bottom: 35px;
+}
+.liredes {
+    list-style: none;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section li {
+    color: #fff;
+    list-style: none;
+}
+
+
+/* Ajuste para dispositivos móviles */
+@media (max-width: 992px) {
+    .row > div[class^="col-"] {
+        max-width: 100%;
+    }
+}

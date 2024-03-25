@@ -1,0 +1,27 @@
+// Estilos para subtítulos y divisores
+.subt {
+    background-image: url(../assets/img/maquinola.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 25vh;
+    color: #fff;
+    max-width: 100%;
+}
+
+.subt h2 {
+    margin: 0; /* Asegurarse de que no haya márgenes */
+    padding: 0; /* Asegurarse de que no haya relleno */
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+
+.fo {
+    font-size: 1.5rem; /* Reducir el tamaño de la fuente */
+
+    // Estilos para pantallas grandes (lg)
+    @media (min-width: 768px) {
+        font-size: 20px;
+    }
+}
