@@ -96,9 +96,24 @@ body .headernav div.navbar-collapse ul.navbar-nav li.nav-item a.nav-link:hover {
   height: 50vh;
 }
 
+.experiencias {
+  padding: 20px; /* Agregar un espacio alrededor del contenedor */
+  height: auto;
+  overflow-y: hidden;
+}
+
 .cardcli {
-  border: #72151D solid 2px;
   background-color: #f3f3f3;
+  transition: transform 0.5s, box-shadow 0.5s;
+  flex: 1 1 300px; /* Flex grow, flex shrink, flex basis */
+  margin-right: 10px; /* Agregar margen derecho para separar las tarjetas */
+  margin-left: 10px; /* Agregar margen izquierdo para separar las tarjetas */
+  margin-bottom: 20px; /* Agregar margen inferior para separar las filas */
+}
+
+.cardcli:hover {
+  transform: scale(1.05) translate(0%, -2%);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 .imagen-container {

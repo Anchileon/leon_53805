@@ -19,10 +19,25 @@
 }
 
 // Estilos para las tarjetas de clientes y distinciones
-.cardcli {
-    border: $color-principal solid 2px;
-    background-color: #f3f3f3;
+
+.experiencias {
+    padding: 20px; /* Agregar un espacio alrededor del contenedor */
+    height: 30vh;
 }
+
+.cardcli {
+    background-color: #f3f3f3;
+    transition: transform 0.5s, box-shadow 0.5s;
+    flex: 1 1 300px; /* Flex grow, flex shrink, flex basis */
+    margin-right: 10px; /* Agregar margen derecho para separar las tarjetas */
+    margin-left: 10px; /* Agregar margen izquierdo para separar las tarjetas */
+    margin-bottom: 20px;
+    &:hover {
+        transform: scale(1.5);
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+}
+
 
 // Estilos para la sección de maquinaria y servicios
 .imagen-container {
