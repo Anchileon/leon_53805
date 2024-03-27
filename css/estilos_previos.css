@@ -75,27 +75,24 @@ section {
 }
 .quienes-somos {
     position: relative;
-  }
-  
-  .contenido-imagen {
+}
+
+.contenido-imagen {
     position: relative; 
     .contenido-imagen img {
         float: right;
         width: 200px;
         height: 200px;
-      }
-  }
-  
-  .contenido-imagen img {
+    }
+}
+.contenido-imagen img {
     float: right;
     margin-left: 20px;
-  }
-  
-  .parrafoquienes {
+}
+.parrafoquienes {
     width: calc(100% - 170px); 
-  }
-  
-  .contenido-imagen h3 {
+}
+.contenido-imagen h3 {
     position: absolute;
     top: 0;
     left: 0;
