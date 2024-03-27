@@ -4,6 +4,9 @@ footer {
     background-color: $gris;
     border-top: $color-principal solid 15px;
     height: auto;
+    h3 {
+    overflow-y: hidden;
+    }
 }
 
 .datafooter {

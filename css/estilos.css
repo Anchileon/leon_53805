@@ -25,6 +25,7 @@ body .headernav div.navbar-collapse ul.navbar-nav li.nav-item a.nav-link:hover {
 
 .logo {
   width: 100px;
+  filter: drop-shadow(5px 5px 5px rgb(0, 0, 0));
 }
 
 .solicitar-presupuesto {
@@ -58,6 +59,7 @@ body .headernav div.navbar-collapse ul.navbar-nav li.nav-item a.nav-link:hover {
   height: 25vh;
   color: #fff;
   max-width: 100%;
+  mask-image: linear-gradient(black 75%, transparent);
 }
 
 .subt h2 {
@@ -166,9 +168,11 @@ body .headernav div.navbar-collapse ul.navbar-nav li.nav-item a.nav-link:hover {
 }
 .premios p {
   font-size: small;
+  text-align: center;
 }
 .premios h3 {
   font-size: large;
+  overflow-y: hidden;
 }
 
 /*footer*/
@@ -176,6 +180,9 @@ footer {
   background-color: #333;
   border-top: #72151D solid 15px;
   height: auto;
+}
+footer h3 {
+  overflow-y: hidden;
 }
 
 .datafooter {
