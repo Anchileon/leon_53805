@@ -43,3 +43,48 @@ body {
         transform: scale(1); /* Vuelve a la escala normal al final */
     }
 }
+
+.sectaside {
+    width: auto;
+    height: auto;
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    .aside1 {
+        width: 400px;
+        height: 400px;
+        color: #f0f0f0;
+        background: url(../assets/img/servicios.jpg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .aside2 {
+        width: 400px;
+        height: 400px;
+        color: #f0f0f0;
+        background: url(../assets/img/maquinaria.jpg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .aside3 {
+        width: 400px;
+        height: 400px;
+        color: #f0f0f0;
+        background: url(../assets/img/compromisoambiental.jpg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+}
+.blur {
+    backdrop-filter: blur(40%);
+}
