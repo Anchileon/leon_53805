@@ -15,6 +15,7 @@
     padding: 0; /* Asegurarse de que no haya relleno */
     overflow-x: hidden;
     box-sizing: border-box;
+    font-weight: 600;
 }
 
 
@@ -23,6 +24,6 @@
 
     // Estilos para pantallas grandes (lg)
     @media (min-width: 768px) {
-        font-size: 20px;
+        font-size: 18px;
     }
 }

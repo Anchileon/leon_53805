@@ -2,7 +2,7 @@
 
 footer {
     background-color: $gris;
-    border-top: $color-principal solid 15px;
+    border-top: $color-principal solid 20px;
     height: auto;
     h3 {
     overflow-y: hidden;
@@ -31,7 +31,6 @@ footer {
 .footer__sectionredes ul li img {
     transition: filter 0.5s;
     filter: grayscale(100%);
-    
     &:hover {
         filter: grayscale(0);
     }

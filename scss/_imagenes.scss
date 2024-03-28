@@ -18,12 +18,8 @@
     height: 50vh;
 }
 
-// Estilos para las tarjetas de clientes y distinciones
 
-.experiencias {
-    padding: 20px; /* Agregar un espacio alrededor del contenedor */
-    height: 30vh;
-}
+// Estilos para las tarjetas de clientes y distinciones
 
 .cardcli {
     background-color: #f3f3f3;
@@ -33,7 +29,7 @@
     margin-left: 10px; /* Agregar margen izquierdo para separar las tarjetas */
     margin-bottom: 20px;
     &:hover {
-        transform: scale(1.5);
+        transform: scale(1.05);
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     }
 }
@@ -74,7 +70,9 @@
 }
 
 .cardretro {
-    background-color: #ffffff;
+    background-color: #00000081;
+    color: #ffffff;
+    text-align: center;
 }
 
 .gridservicios {
@@ -95,3 +93,4 @@
     .gr5 { grid-area: gr5; }
     .gr6 { grid-area: gr6; }
 }
+
