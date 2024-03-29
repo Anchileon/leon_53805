@@ -10,6 +10,38 @@
 }
 
 // Estilos para el aside en el index
+.sectaside {
+    width: auto;
+    height: auto;
+    margin: 15px;
+}
+
+    .aside1 {
+        width: 400px;
+        height: 400px;
+        background: url(../assets/img/servicios.jpg);
+        background-size: cover;
+    }
+
+    .aside2 {
+        width: 400px;
+        height: 400px;
+        background: url(../assets/img/maquinaria.jpg);
+        background-size: cover;
+    }
+
+    .aside3 {
+        width: 400px;
+        height: 400px;
+        background: url(../assets/img/compromisoambiental.jpg);
+        background-size: cover;
+}
+
+.blur {
+    backdrop-filter: blur(10px); /* Puedes ajustar el valor de desenfoque según tus necesidades */
+    color: #f0f0f0; /* Cambia el color del texto si es necesario para que sea legible */
+}
+
 .carousel-inner img {
     height: 200px;
 }
@@ -19,7 +51,7 @@
 }
 
 
-// Estilos para las tarjetas de clientes y distinciones
+// Estilos para las tarjetas Experiencias y Distinciones
 
 .cardcli {
     background-color: #f3f3f3;
