@@ -58,7 +58,8 @@ body {
   color: #fff;
   font-size: 1rem;
 }
-.solicitar-presupuesto .buttonpres {
+
+.buttonpres {
   background-color: #ffffff;
   color: #72151D;
   border: 2px solid #72151D;
@@ -66,37 +67,63 @@ body {
   font-size: 1rem;
   font-weight: 700;
 }
-.solicitar-presupuesto .buttonpres:hover {
+.buttonpres:hover {
   background-color: #b30000;
   color: #ffffff;
 }
 
 .subt {
-  background-image: url(../assets/img/maquinola.jpeg);
+  background-image: url(../assets/img/Machine.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom;
-  height: 25vh;
+  background-position: center;
+  height: 70vh;
   color: #fff;
   max-width: 100%;
-  mask-image: linear-gradient(black 75%, transparent);
+  mask-image: linear-gradient(black 90%, transparent);
 }
 
-.subt h2 {
-  margin: 0; /* Asegurarse de que no haya márgenes */
-  padding: 0; /* Asegurarse de que no haya relleno */
-  overflow-x: hidden;
-  box-sizing: border-box;
-  font-weight: 600;
+.subt:hover {
+  transform: scale(1.2);
+  transition: transform 5s ease;
 }
 
 .fo {
-  font-size: 1.5rem; /* Reducir el tamaño de la fuente */
+  font-size: 1.5rem;
+  font-weight: 600;
+  position: absolute;
+  top: 35%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.5s ease;
 }
-@media (min-width: 768px) {
-  .fo {
-    font-size: 18px;
-  }
+
+.posfo {
+  font-size: 1rem; /* Ajusta el tamaño de la fuente según sea necesario */
+  font-weight: 300; /* Ajusta el peso de la fuente según sea necesario */
+  position: absolute;
+  top: calc(40% + 10px); /* Coloca el enlace debajo del elemento .fo */
+  left: 75%; /* Centra horizontalmente el enlace */
+  transform: translateX(-50%);
+  opacity: 0; /* Inicialmente oculta el enlace */
+  transition: opacity 1s ease;
+}
+
+.subt:hover .fo {
+  opacity: 1; /* Muestra tanto .fo como .posfo al hacer hover en .subt */
+}
+
+.subt:hover .posfo {
+  opacity: 0.8; /* Muestra tanto .fo como .posfo al hacer hover en .subt */
+}
+
+.divsor {
+  color: #72151D;
+  background-color: #72151D;
+  border-style: solid;
+  width: 40vw;
+  height: 5px;
 }
 
 .contenido-imagen {
