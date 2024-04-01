@@ -28,7 +28,7 @@ body {
     height: 65px;
     filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 1));
     &:hover{
-    animation: bounce 0.5s; /* Aplica la animación al pasar el cursor */
+    animation: bounce 1s; /* Aplica la animación al pasar el cursor */
     }
 }
 

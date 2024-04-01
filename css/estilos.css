@@ -34,7 +34,7 @@ body {
   filter: drop-shadow(5px 5px 5px rgb(0, 0, 0));
 }
 .logolym:hover {
-  animation: bounce 0.5s; /* Aplica la animación al pasar el cursor */
+  animation: bounce 1s; /* Aplica la animación al pasar el cursor */
 }
 
 @keyframes bounce {
@@ -77,45 +77,32 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 70vh;
+  height: 90vh;
   color: #fff;
   max-width: 100%;
-  mask-image: linear-gradient(black 90%, transparent);
 }
 
-.subt:hover {
-  transform: scale(1.2);
-  transition: transform 5s ease;
+.subtext {
+  margin: 25vh 10vw 0vh 0vw;
+  width: 30vw;
+  height: 50vh;
 }
 
-.fo {
-  font-size: 1.5rem;
-  font-weight: 600;
-  position: absolute;
-  top: 35%;
-  left: 70%;
-  transform: translate(-50%, -50%);
-  opacity: 0;
-  transition: opacity 0.5s ease;
+@media (max-width: 768px) {
+  .subtext {
+    margin-top: 35vh;
+  }
+  .subtext h3, .subtext span, .subtext h2, .subtext a {
+    font-size: 95%;
+  }
 }
-
 .posfo {
-  font-size: 1rem; /* Ajusta el tamaño de la fuente según sea necesario */
-  font-weight: 300; /* Ajusta el peso de la fuente según sea necesario */
-  position: absolute;
-  top: calc(40% + 10px); /* Coloca el enlace debajo del elemento .fo */
-  left: 75%; /* Centra horizontalmente el enlace */
-  transform: translateX(-50%);
-  opacity: 0; /* Inicialmente oculta el enlace */
-  transition: opacity 1s ease;
+  width: 12vw;
+  height: 7vh;
+  margin-right: 20vw;
 }
-
-.subt:hover .fo {
-  opacity: 1; /* Muestra tanto .fo como .posfo al hacer hover en .subt */
-}
-
-.subt:hover .posfo {
-  opacity: 0.8; /* Muestra tanto .fo como .posfo al hacer hover en .subt */
+.posfo:hover {
+  animation: bounce 1s;
 }
 
 .divsor {
@@ -123,7 +110,7 @@ body {
   background-color: #72151D;
   border-style: solid;
   width: 40vw;
-  height: 5px;
+  height: 3px;
 }
 
 .contenido-imagen {
