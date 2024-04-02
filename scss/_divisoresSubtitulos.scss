@@ -1,17 +1,20 @@
 .subt {
-    background-image: url(../assets/img/Machine.jpg);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent), url(../assets/img/Machine.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 90vh;
-    color: #fff;
+    background-attachment: fixed;
+    position: relative;
+    height: 75vh;
+    color: $blanco;
     max-width: 100%;
 }
 
 
+
 .subtext{
     margin: 25vh 10vw 0vh 10vw;
-    width: 30vw;
+    width: auto;
     height: 50vh;
 }
 
@@ -24,6 +27,18 @@
     }
 }
 
+@media (min-width: 768px) {
+    .subtext {
+        opacity: 0;
+        animation: fadeIn 2s forwards;
+    }
+
+    @keyframes fadeIn {
+        to {
+            opacity: 0.8;
+        }
+    }
+}
 
 
 .posfo {
@@ -33,6 +48,12 @@
     &:hover{
     animation: bounce 1s;
 }
+}
+@media (max-width: 768px) {
+    .posfo {
+        width: 25vw;
+        opacity: 0.8;
+    }
 }
 
 

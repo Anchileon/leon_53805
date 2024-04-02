@@ -54,11 +54,11 @@
 // Estilos para las tarjetas Experiencias y Distinciones
 
 .cardcli {
-    background-color: #f3f3f3;
+    background-color: $blanco;
     transition: transform 0.5s, box-shadow 0.5s;
-    flex: 1 1 300px; /* Flex grow, flex shrink, flex basis */
-    margin-right: 10px; /* Agregar margen derecho para separar las tarjetas */
-    margin-left: 10px; /* Agregar margen izquierdo para separar las tarjetas */
+    flex: 1 1 300px;
+    margin-right: 10px;
+    margin-left: 10px; 
     margin-bottom: 20px;
     &:hover {
         transform: scale(1.05);
@@ -66,6 +66,9 @@
     }
 }
 
+.camvolc {
+    object-fit: cover;
+}
 
 // Estilos para la sección de maquinaria y servicios
 .imagen-container {
