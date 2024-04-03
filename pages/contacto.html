@@ -21,29 +21,31 @@
             <div class="container-fluid">
                 <div class="m-1 p-2">
                     <a href="../index.html">
-                    <h1 class="navbar-brand logolym">Contacto Leon y Manada</h1>
+                        <h1 class="navbar-brand logolym">Contacto Leon y Manada</h1>
                     </a>
                 </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../index.html">Inicio</a>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./servicios.html">Servicios</a>
-                    </li> <li class="nav-item">
-                        <a class="nav-link" href="./maquinaria.html">Maquinaria</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./compromiso_ambiental.html">Compromiso Ambiental</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link fw-bold" href="./contacto.html">Contacto</a>
-                    </li>
-                </ul>
-            </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./maquinaria.html">Maquinaria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./compromiso_ambiental.html">Compromiso Ambiental</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
@@ -53,78 +55,65 @@
             <a href="./contacto.html" class="btn btn-outline-secondary buttonpres">AQUÍ</a>
         </div>
     </section>
-        <main>
-            <div class="mb-3 overflow-hidden">
-                <div class="d-flex justify-content-start align-items-center subt mb-5  overflow-hidden" >
-                    <h2 class="subtext fw-normal">CONTACTO</h2>
+    <main>
+        <div class="mb-3 overflow-hidden">
+            <div class="d-flex justify-content-start align-items-center subt mb-5 overflow-hidden">
+                <h2 class="subtext fw-normal">CONTACTO</h2>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-lg-center">
+            <section class="col-10 offset-1 offset-lg-0 d-flex align-items-stretch">
+                <div class="container formcontacto rounded p-3">
+                    <form class="form-contacto" action="#" method="post">
+                        <div class="form-group">
+                            <label for="nombre_apellido fw">Nombre y Apellido</label>
+                            <input type="text" id="nombre_apellido" name="nombre_apellido" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" id="telefono" name="telefono" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="asunto">Asunto</label>
+                            <select id="asunto" name="asunto" class="form-control" required>
+                                <option value="presupuesto">Solicitud de Presupuesto</option>
+                                <option value="reclamo">Reclamo</option>
+                                <option value="trabajar">Trabajar con Nosotros</option>
+                            </select>
+                        </div>
+                        <div class="form-group pb-1">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" class="form-control" rows="4"></textarea>
+                        </div>
+                        <div class="pt-3 d-flex justify-content-end">
+                            <button type="submit" class="btn btn-primary send fw-bold m-3">Enviar Consulta</button>
+                            <button type="reset" class="btn btn-secondary clear fw-bold m-3">Limpiar</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <section>
+                <div class="m-5">
+                    <h3 class="mb-5 overflow-hidden fw-bold">DONDE ESTAMOS</h3>
+                    <p><span class="fw-bold">Ubicación:</span> Calle pública, Las Calles, Traslasierra, Cordoba, Argentina</p>
+                    <p><span class="fw-bold">Teléfono:</span> +54 911-21912920</p>
+                    <p><span class="fw-bold">Email:</span> info@leonymanada.com</p>
+                    <p><span class="fw-bold">Horarios de Atención:</span> Lunes a Viernes: 9 AM - 5 PM</p>
+                    <p><span class="fw-bold">Sitio Web:</span> <a href="http://www.leonymanada.com" target="_blank">www.leonymanada.com</a></p>
+                </div>
+                <div>
+                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60715.251329907645!2d-65.01265479530447!3d-31.837104162052306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d2f16e63ad10f%3A0x106fd4af188eb094!2sLeon%20y%20Manada!5e0!3m2!1ses-419!2sar!4v1706916898707!5m2!1ses-419!2sar" width="0" height="0" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
-            <div class="row d-flex justify-content-lg-center">
-                <section class="col-10 offset-1 offset-lg-0 d-flex align-items-stretch">
-                    <div class="container formcontacto rounded p-3">
-                        <form class="form-contacto" action="#" method="post">
-                            <div class="form-group">
-                                <label for="nombre_apellido fw">Nombre y Apellido</label>
-                                <input type="text" id="nombre_apellido" name="nombre_apellido" class="form-control" required>
-                            </div>
-                        
-                            <div class="form-group">
-                                <label for="email">Email</label>
-                                <input type="email" id="email" name="email" class="form-control" required>
-                            </div>
-                        
-                            <div class="form-group">
-                                <label for="telefono">Teléfono</label>
-                                <input type="tel" id="telefono" name="telefono" class="form-control" required>
-                            </div>
-                        
-                            <div class="form-group">
-                                <label for="asunto">Asunto</label>
-                                <select id="asunto" name="asunto" class="form-control" required>
-                                    <option value="presupuesto">Solicitud de Presupuesto</option>
-                                    <option value="reclamo">Reclamo</option>
-                                    <option value="trabajar">Trabajar con Nosotros</option>
-                                </select>
-                            </div>
-                        
-                            <div class="form-group pb-1">
-                                <label for="mensaje">Mensaje</label>
-                                <textarea id="mensaje" name="mensaje" class="form-control" rows="4"></textarea>
-                            </div>
-                            <div class="pt-3 d-flex justify-content-end">
-                                <button type="submit" class="btn btn-primary send fw-bold m-3">Enviar Consulta</button>
-                                <button type="reset" class="btn btn-secondary clear fw-bold m-3">Limpiar</button>
-                            </div>
-                        </form>
-                    </div>
-                </section>
-                <section>
-                                
-                    <div class="m-5">
-                        <h3 class="mb-5 overflow-hidden fw-bold">DONDE ESTAMOS</h3>
-                        <p><span class="fw-bold">Ubicación:</span> Calle pública, Las Calles, Traslasierra, Cordoba, Argentina</p>
-                        <p><span class="fw-bold">Teléfono:</span> +54 911-21912920</p>
-                        <p><span class="fw-bold">Email:</span> info@leonymanada.com</p>
-                        <p><span class="fw-bold">Horarios de Atención:</span> Lunes a Viernes: 9 AM - 5 PM</p>
-                        <p><span class="fw-bold">Sitio Web:</span> <a href="http://www.leonymanada.com" target="_blank">www.leonymanada.com</a></p>
-                    </div>
-                        <div>  
-                            <iframe class="map"
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60715.251329907645!2d-65.01265479530447!3d-31.837104162052306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d2f16e63ad10f%3A0x106fd4af188eb094!2sLeon%20y%20Manada!5e0!3m2!1ses-419!2sar!4v1706916898707!5m2!1ses-419!2sar"
-                                width="0" height="0" style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade">
-                            </iframe>
-                        </div>
-                    </div>
-                </section>
-            
-            </div>
-
-        </body>
-                
+            </section>
+        </div>
     </main>
     <footer class="d-flex pt-3 pb-lg-3">
-        <div class="container  p-3">
+        <div class="container p-3">
             <div class="row">
                 <div class="col-12 col-lg-3 flex-lg-grow-1 mb-3 mb-lg-0">
                     <div class="footer__sectionredes text-center">
@@ -136,8 +125,8 @@
                         </ul>
                     </div>
                 </div>
-                                <div class="col-6 col-lg-3 flex-lg-grow-1">
-                    <div class="footer-section text-center"> 
+                <div class="col-6 col-lg-3 flex-lg-grow-1">
+                    <div class="footer-section text-center">
                         <h3><a class="contactfooter" href="../pages/contacto.html">Contacto</a></h3>
                         <ul class="list-unstyled d-flex flex-column justify-content-around">
                             <li>+54911-2191-2920</li>
@@ -156,7 +145,7 @@
             </div>
         </div>
     </footer>
-    <script src="../js/bootstrap.bundle.min.js" ></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
