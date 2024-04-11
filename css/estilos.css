@@ -397,4 +397,33 @@ h3 {
   mask-image: linear-gradient(to top, black 90%, transparent);
 }
 
+.notfound {
+  height: 80vh;
+  overflow-y: hidden;
+}
+
+@media (max-width: 768px) {
+  .notfound {
+    height: 50vh;
+  }
+}
+.imgnot {
+  filter: drop-shadow(5px 5px 5px rgb(0, 0, 0));
+}
+
+.notclass {
+  width: auto;
+}
+
+.nottext {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .nottext {
+    font-size: 1rem;
+  }
+}
+
 /*# sourceMappingURL=estilos.css.map */
