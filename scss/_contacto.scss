@@ -16,12 +16,12 @@ h3 {
 }
 
 .clear {
-    background-color: $gris;
+    background-color: $color-secundario;
     color: $blanco;
     border: $color-principal solid 2px;
 
     &:hover {
-        background-color: $color-secundario;
+        background-color: $gris;
         color: $blanco;
         border: $color-principal solid 2px;
     }
