@@ -142,13 +142,12 @@ body {
   height: 50vh;
 }
 
-/*
 @media (max-width: 768px) {
-    .subtext {
-        margin-top: 35vh;
-    }
+  .subtext {
+    margin: 5vh 5vw;
+    width: auto;
+  }
 }
-*/
 @media (min-width: 768px) {
   .subtext {
     opacity: 0;
