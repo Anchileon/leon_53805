@@ -13,8 +13,9 @@
 
 @media (max-width: 767px) {
     .subt {
-        height: 30vh;
+        height: 40vh;
         background-image: url(../assets/img/Machinemobile.jpg);
+        background-position: bottom;
     }
 }
 
@@ -27,18 +28,15 @@
 
 
 
-.subtext{
-    margin: 20vh 10vw 0vh 10vw;
+.subtextindex{
+    margin: 5vh 1vw 0vh 1vw;
     width: auto;
-    height: 50vh;
 }
 
-
-@media (max-width: 768px) {
-    .subtext {
-    margin: 5vh 5vw ;
+.subtext{
+    margin: 25vh 10vw 0vh 10vw;
     width: auto;
-    }
+    height: 50vh;
 }
 
 
@@ -63,14 +61,13 @@
     animation: bounce 1s;
 }
 }
-@media (max-width: 768px) {
+
+@media (max-width: 767px) {
     .posfo {
-        width: 28vw;
-        height: 3vh;
-        opacity: 0.8;
+        width: 25vw;
+        height: auto;
     }
 }
-
 
 .divsor {
     color: $color-principal;
