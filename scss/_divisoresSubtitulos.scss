@@ -13,6 +13,7 @@
 
 @media (max-width: 767px) {
     .subt {
+        height: 30vh;
         background-image: url(../assets/img/Machinemobile.jpg);
     }
 }
@@ -35,9 +36,6 @@
 @media (max-width: 768px) {
     .subtext {
         margin-top: 35vh;
-    }
-    .subtext h3, .subtext span, .subtext h2, .subtext a {
-        font-size: 95%;
     }
 }
 
@@ -65,6 +63,7 @@
 @media (max-width: 768px) {
     .posfo {
         width: 28vw;
+        height: 3vh;
         opacity: 0.8;
     }
 }

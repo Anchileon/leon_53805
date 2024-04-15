@@ -25,6 +25,20 @@ $text-color-sizes: (
 ),
 );
 
+@media (max-width: 767px) {
+    .subtitles {
+        font-size: 48px;
+    }
+
+    .subsubtitles {
+        font-size: 32px;
+    }
+
+    .parrafens {
+        font-size: 22px; 
+    }
+}
+
 .subtitles {
     color: map-get(map-get($text-color-sizes, subtitles), color);
     font-size: map-get(map-get($text-color-sizes, subtitles), font-size);

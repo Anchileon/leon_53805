@@ -21,13 +21,22 @@ body {
 .logolym {
     text-indent: 9999px;
     background-image: url(../assets/img/logoleonymanada.png);
-    background-size: 95px 61px;
+    background-size: 100px;
     background-repeat: no-repeat;
     width: 100px;
     height: 65px;
     filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 1));
     &:hover{
     animation: bounce 1s; /* Aplica la animación al pasar el cursor */
+    }
+}
+
+@media (max-width: 767px) {
+    .logolym {
+        background-size: 150px;
+        height: 100px;
+        width: 250px;
+
     }
 }
 
