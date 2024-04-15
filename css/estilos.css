@@ -138,10 +138,16 @@ body {
   }
 }
 .subtextindex {
-  margin: 5vh 1vw 0vh 1vw;
+  margin: 25vh 10vw 0vh 10vw;
   width: auto;
 }
 
+@media (max-width: 767px) {
+  .subtextindex {
+    margin: 5vh 1vw 0vh 1vw;
+    width: auto;
+  }
+}
 .subtext {
   margin: 25vh 10vw 0vh 10vw;
   width: auto;
